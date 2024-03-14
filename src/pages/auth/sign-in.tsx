@@ -24,7 +24,7 @@ export function SignIn() {
     try {
       await new Promise((resolve) => setTimeout(resolve, 2000))
 
-      toast.error('Enviamos um link de autenticação para seu e-mail.', {
+      toast.success('Enviamos um link de autenticação para seu e-mail.', {
         action: {
           label: 'Reenviar',
           onClick: () => handleSignIn(data),
