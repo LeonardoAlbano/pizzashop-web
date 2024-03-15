@@ -31,13 +31,13 @@ export function AccountMenu() {
         </DropdownMenuLabel>
         <DropdownMenuSeparator />
         <DropdownMenuItem>
-            <Building className="w-4 h-4 mr-2" />
-            <span>Perfil da loja</span>
+          <Building className="w-4 h-4 mr-2" />
+          <span>Perfil da loja</span>
         </DropdownMenuItem>
 
         <DropdownMenuItem className="text-rose-500 dark:text-rose-400">
-            <LogOut className="w-4 h-4 mr-2" />
-            <span>Sair</span>
+          <LogOut className="w-4 h-4 mr-2" />
+          <span>Sair</span>
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
